@@ -1,0 +1,72 @@
+body{
+    background-color:rgb(108, 238, 195);
+    font-family: Arial, Helvetica, sans-serif;     /* usado para modificar la letra de t */
+}
+
+
+.titulo1{ 
+    background-color: rgb(194, 206, 199);
+    padding: 20px;
+    border: solid salmon 4px;
+}
+
+h1{text-align: center;}                          /* usado para alinear los textos  */
+
+
+.parrafo1{
+    color: rgb(170, 40, 40);
+    font-weight: bold; 
+    font-size: 1em; 
+    text-align: center;}                  /* usado para engrosar letras font bold etc */
+        /* modificar tamaño de letra */
+
+.parrafo2{
+    font-size: 1em;                 /* modificar tamaño de letra */
+    font-weight: bold;              /* modificar grosor letra */
+    color: blue;      
+    text-align: center; }                        
+               
+    /* hashtag # usado para crear lineas especiales y modificarlas  */
+
+.parrafo3{
+        font-size: 1em;                 /* modificar tamaño de letra */
+        font-weight: bold;              /* modificar grosor letra */
+        color: rgb(15, 19, 18);       
+        text-align: center;        }                        
+
+
+div p{ color: rgb(105, 32, 19);font-weight: bold;font-size: 3em;} /* el div se usa para subclasificar y 
+        modificar caracteristicas especificas */
+        
+div h2{ color: blue;}                   /* el div se usa para subclasificar y 
+        modificar caracteristicas especificas */
+
+
+ #parrafoespecialone{ /* hashtag # usado para crear lineas especiales y modificarlas */
+            font-size: 2em; /* modificar tamaño de letra */
+            font-weight: bold;  /* modificar grosor letra */
+            color: black;
+        }
+
+
+
+
+
+
+        
+a, img{
+    display: block;   /* usado para centrar imagen y link*/
+}
+
+a{
+    margin: 50px 20px;  /* usado para dar margen al link en la pagina (arriba abajo derecha izquierda) */
+    text-decoration: none;  /* usado para quitar el subrayado del link */
+    color: rgb(50, 37, 168);  /* usado para cambiar el color de las letras */
+}
+
+a:hover {color: rgb(167, 39, 156); }   /* usado para cambiar el color del link al pasar el mouse por ahi */
+
+img{
+    width: 30%;  /* usado para modificiar el ancho de la imagen con respecto del body en este caso*/
+    margin: auto; /* para que se modifique automaticamente la imagen al cambiar el tamaño de la pagina */
+}
